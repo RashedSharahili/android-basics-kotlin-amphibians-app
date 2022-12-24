@@ -66,6 +66,7 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
     // Moshi
+    //noinspection GradleDependency
     implementation "com.squareup.moshi:moshi-kotlin:$moshi"
     // Retrofit with Moshi Converter
     implementation "com.squareup.retrofit2:converter-moshi:$retrofit"
